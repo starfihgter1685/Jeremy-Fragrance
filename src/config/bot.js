@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Made with Soßenbinder",
         // Activity type number (0 = Playing).
         type: 0,
       },
@@ -159,11 +159,11 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Geld",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Gelds",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "€",
     },
 
     // Starting balance for new users.
@@ -439,16 +439,16 @@ export const botConfig = {
   // Set any feature to `false` to disable it globally.
   features: {
     // Core systems.
-    economy: true,
-    leveling: true,
+    economy: false,
+    leveling: false,
     moderation: true,
     logging: true,
     welcome: true,
 
     // Community engagement systems.
     tickets: true,
-    giveaways: true,
-    birthday: true,
+    giveaways: false,
+    birthday: false,
     counter: true,
 
     // Security and self-service systems.
