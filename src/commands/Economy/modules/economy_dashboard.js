@@ -257,7 +257,7 @@ async function handleAddCurrency(selectInteraction, rootInteraction, guild, clie
         .setStyle(TextInputStyle.Short)
         .setPlaceholder('wallet')
         .setMinLength(1)
-        .setMaxLength(5)
+        .setMaxLength(6)
         .setRequired(true);
 
     modal.addLabelComponents(userLabel);
